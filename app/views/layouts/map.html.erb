@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <%= stylesheet_link_tag "map", :media => "all" %>
+	<%= javascript_include_tag "jquery"%>
+	<%= javascript_include_tag "jquery_ujs"%>
+    <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyABMfKeHUy_O_SQHNoGXzCb8ct5v1zNcJ0&sensor=true"
+    %>
+	
+	<%= javascript_include_tag "map", :media => "all" %>
+  </head>
+  <body>
+  	<%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+    <div id="map-canvas"/>
+  </body>
+</html>
