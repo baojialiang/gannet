@@ -22,8 +22,8 @@ function initialize() {
 	  styles: [{
 		polygonOptions: {
 		  fillColor: "#00FF00",
-		  fillOpacity: 0.3,
-		  
+		  fillOpacity: 0.3
+
 		}
 	  }, {
 		where: "ISO_2DIGIT = 'CN'",

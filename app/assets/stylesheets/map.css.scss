@@ -3,5 +3,11 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 html { height: 100% }
-body { height: 100%; margin: auto;}
-#map-canvas { height: 100%; width: 80%}
+body { height: 100%; margin: 0; padding: 0; background-color: #40767D }
+#wrapper {height: 100%;  background-color: #FFFFFF; width: 80%; margin: auto }
+#main {height: 50%; width:50%;min-height: 500px }
+#map-canvas { height: 100%; width: 100% }
+
+#footer-detail {text-align: center}
+#footer {padding: 30px 30px; border-top: 1px solid #DDD}
+#header h1 {margin: 60px 60px 60px 80px}

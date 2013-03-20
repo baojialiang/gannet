@@ -11,7 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130317023650) do
+ActiveRecord::Schema.define(:version => 20130320134309) do
+
+  create_table "ports", :force => true do |t|
+    t.string   "name",       :limit => 10, :null => false
+    t.float    "longitude"
+    t.float    "latitude"
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+  end
+
+  add_index "ports", ["name"], :name => "index_ports_on_name"
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false

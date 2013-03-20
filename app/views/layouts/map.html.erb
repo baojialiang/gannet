@@ -2,15 +2,30 @@
 <html>
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
     <%= stylesheet_link_tag "map", :media => "all" %>
 	<%= javascript_include_tag "jquery"%>
 	<%= javascript_include_tag "jquery_ujs"%>
     <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyABMfKeHUy_O_SQHNoGXzCb8ct5v1zNcJ0&sensor=true"
     %>
-	
-	<%= javascript_include_tag "map", :media => "all" %>
   </head>
   <body>
-    <div id="map-canvas"/>
+    <div id="wrapper">
+        <div id="header">
+          <h1><%= @page_title %></h1>
+        </div>
+        <div id="main">
+            <div id="map-canvas" class="left"></div>
+            <div class="right">
+              <%= yield %>
+            </div>
+        </div>
+        <div id="footer">
+          <div id="footer-detail">
+            <%= image_tag('logo/iotlab-logo.png', :class => "logo_image")%>
+            <a id="link-iotlab" href="http://www.sisi-smu.org">航运信息技术研究所 © 2013</a>
+           </div>
+        </div>
+    </div>
   </body>
 </html>
