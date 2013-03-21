@@ -1,13 +1,16 @@
 // Place all the styles related to the map controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-html { height: 100% }
 body { height: 100%; margin: 0; padding: 0; background-color: #40767D }
-#wrapper {height: 100%;  background-color: #FFFFFF; width: 80%; margin: auto }
-#main {height: 50%; width:50%;min-height: 500px }
-#map-canvas { height: 100%; width: 100% }
+#wrapper { background-color: #FFFFFF; width: 80%; margin: auto; margin-top: 50px }
+#main {min-height: 500px }
 
 #footer-detail {text-align: center}
 #footer {padding: 30px 30px; border-top: 1px solid #DDD}
-#header h1 {margin: 60px 60px 60px 80px}
+#header {padding: 50px 60px 30px 80px; margin-bottom: 30px; border-bottom: 1px solid #DDD}
+#left {float: left; width: 70%}
+#right {float: left; width: 30%}
+
+#map-canvas { height: 400px; width: 80%; margin-left: 10% }
+#map-canvas img{ max-width: none;}
+#map-canvas label { width: auto; display:inline; }

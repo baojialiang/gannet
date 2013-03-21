@@ -10,7 +10,9 @@ function initialize() {
 	var china = new google.maps.LatLng(36,102);
 	map = new google.maps.Map(document.getElementById('map-canvas'), {
 	  center: china,
-	  zoom: 4,
+	  zoom: 3,
+      minZoom: 3,
+      maxZoom: 4,
 	  mapTypeId: google.maps.MapTypeId.ROADMAP
 	});
 
@@ -23,7 +25,6 @@ function initialize() {
 		polygonOptions: {
 		  fillColor: "#00FF00",
 		  fillOpacity: 0.3
-
 		}
 	  }, {
 		where: "ISO_2DIGIT = 'CN'",
@@ -32,7 +33,8 @@ function initialize() {
 		  fillOpacity: 0.0001,
 		  strokeColor: "#FFFFFF"
 		}
-	  }]
+	  }],
+        clickable: false
 	});
 	layer.setMap(map);
 	

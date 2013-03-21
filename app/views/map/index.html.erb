@@ -1,3 +1,9 @@
 <% @page_title = "世界港口信息" %>
-
+<%= stylesheet_link_tag "map", :media => "all" %>
+<%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyABMfKeHUy_O_SQHNoGXzCb8ct5v1zNcJ0&sensor=true"%>
 <%= javascript_include_tag "map", :media => "all" %>
+<% content_for :right_bar do %>
+    <%= render(:partial => "layouts/right_bar")%>
+<% end %>
+
+<div id="map-canvas"></div>

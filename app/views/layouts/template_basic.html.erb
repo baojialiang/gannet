@@ -2,28 +2,29 @@
 <html>
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
-    <%= stylesheet_link_tag "map", :media => "all" %>
+    <!--<link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css"> -->
+    <%= stylesheet_link_tag "bootstrap", :media => "all" %>
 	<%= javascript_include_tag "jquery"%>
 	<%= javascript_include_tag "jquery_ujs"%>
-    <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyABMfKeHUy_O_SQHNoGXzCb8ct5v1zNcJ0&sensor=true"
-    %>
+
   </head>
   <body>
     <div id="wrapper">
         <div id="header">
           <h1><%= @page_title %></h1>
         </div>
-        <div id="main">
-            <div id="map-canvas" class="left"></div>
-            <div class="right">
+        <div id="main" class="clearfix">
+            <div id="left">
               <%= yield %>
+            </div>
+            <div id="right">
+              <%= yield :right_bar %>
             </div>
         </div>
         <div id="footer">
           <div id="footer-detail">
             <%= image_tag('logo/iotlab-logo.png', :class => "logo_image")%>
-            <a id="link-iotlab" href="http://www.sisi-smu.org">航运信息技术研究所 © 2013</a>
+            <a id="link-iotlab" href="http://www.sisi-smu.org">航运信息技术研究所 © <%= Time.new.year %></a>
            </div>
         </div>
     </div>

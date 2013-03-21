@@ -1,5 +1,5 @@
 class MapController < ApplicationController
-  layout 'map'
+  layout 'template_basic'
   #before_filter :authenticate_user!
  
  
