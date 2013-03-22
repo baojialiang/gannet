@@ -8,9 +8,5 @@ body { height: 100%; margin: 0; padding: 0; background-color: #40767D }
 #footer-detail {text-align: center}
 #footer {padding: 30px 30px; border-top: 1px solid #DDD}
 #header {padding: 50px 60px 30px 80px; margin-bottom: 30px; border-bottom: 1px solid #DDD}
-#left {float: left; width: 70%}
+#left {float: left; width: 70%; margin-left: 10%}
 #right {float: left; width: 30%}
-
-#map-canvas { height: 400px; width: 80%; margin-left: 10% }
-#map-canvas img{ max-width: none;}
-#map-canvas label { width: auto; display:inline; }
