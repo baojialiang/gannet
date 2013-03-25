@@ -2,32 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47e2b901-0932-4d6d-a681-349626279cf3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/map.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/right_bar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_right_bar.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_right_bar.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/basic_template.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/basic_template.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gannet.iml" afterPath="$PROJECT_DIR$/.idea/gannet.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/template_basic.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/template_basic.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/map.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/map.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/map.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/map.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\www\ruby\gannet\app\assets\stylesheets\map.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/basic_template.css.scss" />
     </list>
     <ignored path="gannet.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1363931031619" ignored="false" />
+    <file path="/Dummy.txt" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1364219828481" ignored="false" />
     <file path="/20130320134309_create_ports.rb" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1363788390680" ignored="false" />
     <file path="/map.html.erb" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1363859313336" ignored="false" />
     <file path="/map.css.scss" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1363851366192" ignored="false" />
     <file path="/index.html.erb" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1363850629143" ignored="false" />
-    <file path="/map.js" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1363876075113" ignored="false" />
-    <file path="/_right_bar.erb" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1363850738087" ignored="false" />
+    <file path="/map.js" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1364224451164" ignored="false" />
+    <file path="/_right_bar.erb" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1364224556639" ignored="false" />
     <file path="/map_controller.rb" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1363859884428" ignored="false" />
     <file path="/application_controller.rb" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1363934382562" ignored="false" />
     <file path="/template_basic.html.erb" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1363934605875" ignored="false" />
     <file path="/new.html.erb" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1363943910522" ignored="false" />
     <file path="/edit.html.erb" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1363937231375" ignored="false" />
+    <file path="/right_bar.css" changelist="47e2b901-0932-4d6d-a681-349626279cf3" time="1364224197874" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,55 +43,39 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_links.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.erb">
+      <file leaf-file-name="template_basic.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/template_basic.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="47" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-15.692307">
+            <state line="27" column="34" selection-start="926" selection-end="926" vertical-scroll-proportion="-18.321428">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
+      <file leaf-file-name="map.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="33" selection-start="174" selection-end="174" vertical-scroll-proportion="0.10442261">
+            <state line="82" column="42" selection-start="9474" selection-end="9474" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!block;n#getPorts#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_right_bar.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_right_bar.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="11" selection-start="304" selection-end="304" vertical-scroll-proportion="0.29081634">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/map/index.html.erb">
+      <file leaf-file-name="right_bar.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/right_bar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="38" selection-start="329" selection-end="329" vertical-scroll-proportion="-3.2692308">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="37" selection-start="488" selection-end="488" vertical-scroll-proportion="-11.769231">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="39" selection-start="974" selection-end="974" vertical-scroll-proportion="-15.692307">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="68" selection-start="536" selection-end="536" vertical-scroll-proportion="-10.461538">
+            <state line="0" column="47" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,28 +99,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/map/all.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_right_bar.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/map.html.erb" />
         <option value="$PROJECT_DIR$/app/views/map/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/map_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/map.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/map.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/template_basic.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/basic_template.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/map.css" />
         <option value="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/map.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/basic_template.css.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/right_bar.css" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/map.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_right_bar.erb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1302" />
-    <option name="y" value="29" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1296" />
     <option name="height" value="1000" />
   </component>
@@ -250,6 +233,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gannet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gannet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,8 +420,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -539,7 +544,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -647,17 +652,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1302" y="29" width="1296" height="1000" extended-state="1" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25850892" sideWeight="0.6707466" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25364667" sideWeight="0.67103696" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -726,116 +731,108 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_right_bar.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="375" selection-end="375" vertical-scroll-proportion="0.28333333">
-          <folding>
-            <element signature="n#!!block;n#markerPorts#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/map_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="168" selection-end="168" vertical-scroll-proportion="-9.52">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="15" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="15" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/template_basic.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="43" selection-start="313" selection-end="313" vertical-scroll-proportion="0.12530713">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/basic_template.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="623" selection-end="623" vertical-scroll-proportion="0.22832723">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/map.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="37" selection-start="488" selection-end="488" vertical-scroll-proportion="-11.769231">
+        <state line="18" column="37" selection-start="488" selection-end="488" vertical-scroll-proportion="0.4362245">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="50" selection-start="351" selection-end="351" vertical-scroll-proportion="-9.153846">
-          <folding />
-        </state>
+        <state line="14" column="50" selection-start="351" selection-end="351" vertical-scroll-proportion="-9.153846" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="68" selection-start="536" selection-end="536" vertical-scroll-proportion="-10.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="47" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-15.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/map/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="329" selection-end="329" vertical-scroll-proportion="-3.2692308">
+        <state line="16" column="68" selection-start="536" selection-end="536" vertical-scroll-proportion="0.3877551">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="39" selection-start="974" selection-end="974" vertical-scroll-proportion="-15.692307">
+        <state line="24" column="39" selection-start="974" selection-end="974" vertical-scroll-proportion="0.59143966">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="33" selection-start="174" selection-end="174" vertical-scroll-proportion="0.10442261">
+        <state line="21" column="57" selection-start="499" selection-end="499" vertical-scroll-proportion="0.5089286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="47" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.5816327">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/map.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="101" selection-end="101" vertical-scroll-proportion="0.046798028">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/basic_template.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="46" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/map/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="61" selection-start="351" selection-end="351" vertical-scroll-proportion="0.17250325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/right_bar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="47" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/template_basic.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="34" selection-start="926" selection-end="926" vertical-scroll-proportion="-18.321428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="42" selection-start="9474" selection-end="9474" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!block;n#getPorts#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_right_bar.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="11" selection-start="304" selection-end="304" vertical-scroll-proportion="0.29081634">
           <folding />
         </state>
       </provider>
