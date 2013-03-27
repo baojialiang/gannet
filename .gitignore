@@ -16,3 +16,4 @@
 
 # Ignore .idea file
 /.idea
+/.idea/*.xml
