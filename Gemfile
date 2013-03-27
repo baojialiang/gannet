@@ -12,7 +12,8 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
+  #gem 'pg'
+  gem 'mysql2'
   gem 'thin'
 end
 
