@@ -1,1 +1,3 @@
 #mark_details {margin-left: 10%; display: none }
+#mark_details table th {width:35%}
+#mark_details table td {width:65%}

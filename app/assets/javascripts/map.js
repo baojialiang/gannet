@@ -28,9 +28,9 @@ function setLayer(){
 
 function getPorts(){
 	var ports = [];
-    ports[0] = {name: "连云港", latitude: 34.733, longitude: 119.45, description: "<b>连云港</b> 东经119.45 北纬34.733<br>连云港港地处中国沿海中部的海州湾西南岸、江苏省的东北端，位于北纬34°44'，东经119°27'（主要港区）。港口北倚长6㎞的东西连岛天然屏障，南靠巍峨的云台山，为横贯中国东西的铁路大动脉——陇海、兰新铁路的东部终点港，被誉为新亚欧大陆桥东桥头堡和新丝绸之路东端起点，是中国中西部地区最便捷、最经济的出海口..."};
-    ports[1] = {name: "宁波港", latitude: 29.9411, longitude: 121.8513, description: "<b>宁波港</b> 东经121.8513 北纬29.9411<br>宁波港地处我国大陆海岸线中部，南北和长江“ T ”型结构的交汇点上，地理位置适中，是中国大陆著名的深水良港。宁波港是一个集内河港、河口港和海港于一体的多功能、综合性的现代化深水大港，已与世界上100多个国家和地区的600多个港口通航..."};
-    ports[2] = {name: "上海港", latitude: 31.2385556, longitude: 121.484583, description: "<b>上海港</b> 东经121.4846 北纬31.239<br>上海港位于长江三角洲前缘，地处长江东西运输通道与海上南北运输通道的交汇点，是中国沿海的主要枢纽港，2010年上海港货物、集装箱吞吐量均位居世界第一..."};
+    ports[0] = {name: "连云港", latitude: 34.733, longitude: 119.45, description: "<b>连云港</b> 东经119.45 北纬34.733<br>连云港港地处中国沿海中部的海州湾西南岸、江苏省的东北端，位于北纬34°44'，东经119°27'（主要港区）。港口北倚长6㎞的东西连岛天然屏障，南靠巍峨的云台山，为横贯中国东西的铁路大动脉——陇海、兰新铁路的东部终点港，被誉为新亚欧大陆桥东桥头堡和新丝绸之路东端起点，是中国中西部地区最便捷、最经济的出海口...", wind: "常风向偏东，强风向偏北。大风除年均一次台风影响外，一般出现在冬季，最大风速为28米/秒。", annual_avg_precipitation: "852.8mm", annual_avg_temperature: "14摄氏度"};
+    ports[1] = {name: "宁波港", latitude: 29.9411, longitude: 121.8513, description: "<b>宁波港</b> 东经121.8513 北纬29.9411<br>宁波港地处我国大陆海岸线中部，南北和长江“ T ”型结构的交汇点上，地理位置适中，是中国大陆著名的深水良港。宁波港是一个集内河港、河口港和海港于一体的多功能、综合性的现代化深水大港，已与世界上100多个国家和地区的600多个港口通航...", wind: "常风向西北，频率13.4%；次常风向东北，频率11.0%；冬季常风向西北北，夏季常风向东南东向；强风向东北、东北北，最大风速分别为38米/秒和37米/秒。多年平均≥6级风天数32天，≥7级风天数15天，≥8级风天数6天。", annual_avg_precipitation: "1411mm", annual_avg_temperature: "16.3摄氏度"};
+    ports[2] = {name: "上海港", latitude: 31.2385556, longitude: 121.484583, description: "<b>上海港</b> 东经121.4846 北纬31.239<br>上海港位于长江三角洲前缘，地处长江东西运输通道与海上南北运输通道的交汇点，是中国沿海的主要枢纽港，2010年上海港货物、集装箱吞吐量均位居世界第一...", wind: "全年以东南偏东风为最多，东风及东南风次之，11月至次年2月多西北风，4~8月多东南风，6~10月会有台风及随风而来的暴雨。上海受台风影响或袭击主要在7~9月。8月受台风影响时，风力较强，9月台风常与南下的冷空气结合，以产生大暴雨。年平均风速3.0米/秒，最大风速30.0米/秒。", annual_avg_precipitation: "1110.9mm", annual_avg_temperature: "15.8摄氏度"};
     ports[3] = {name: "大连港", latitude: 38.9167, longitude: 121.65, description: "<b>大连港</b> 东经121.65 北纬38.9167<br>大连港位居西北太平洋的中枢，是正在兴起的东北亚经济圈的中心，是该区域进入太平洋，面向世界的海上门户。港口港阔水深，不淤不冻。自然条件非常优越，是转运远东、南亚、北美、欧洲货物最便捷的港口..."};
     ports[4] = {name: "香港港", latitude: 22.5, longitude: 114.333, description: "<b>香港港</b> 东经114.333 北纬22.5<br>香港港是中国天然良港，远东的航运中心，在珠江口外东侧，香港岛和九龙半岛之间 。目前有80多条国际班轮每周提供约500班集装箱班轮服务，连接香港港至世界各地500多个目的地..."};
     ports[5] = {name: "高雄港", latitude: 22.617, longitude: 120.267, description: "<b>高雄港</b> 东经120.267 北纬22.617<br>高雄港是一座位于台湾南部的海港，毗邻高雄市市区，也是台湾最大的港口，属大型综合性港口。港口年吞吐量约5000～6000万吨。港口设有百万吨级大型干船坞和两座25万吨级单点系泊设施。高雄港是世界集装箱运输的大港之一。1989年集装箱吞吐量已达338.3万标准箱，居世界第四位..."};
@@ -79,7 +79,15 @@ function attachMessageWindow(marker){
 function attachRightBar(marker,port){
     google.maps.event.addListener(marker, 'click', function() {
         jQuery("#mark_details").hide();
+        jQuery("#tb_name").text("");
+        jQuery("#tb_wind").text("");
+        jQuery("#tb_annual_avg_precipitation").text("");
+        jQuery("#tb_annual_avg_temperature").text("");
+
         jQuery("#tb_name").text(port.name);
+        jQuery("#tb_wind").text(port.wind);
+        jQuery("#tb_annual_avg_precipitation").text(port.annual_avg_precipitation);
+        jQuery("#tb_annual_avg_temperature").text(port.annual_avg_temperature);
         jQuery("#mark_details").show(500);
     });
 }
