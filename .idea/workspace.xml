@@ -6,6 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/basic_template.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/basic_template.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gannet.iml" afterPath="$PROJECT_DIR$/.idea/gannet.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/template_basic.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/template_basic.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -44,10 +45,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="31" selection-start="906" selection-end="906" vertical-scroll-proportion="0.8864994">
+            <state line="50" column="31" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,7 +84,25 @@
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="18" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+            <state line="18" column="28" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/map.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="25" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic_template.css.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/basic_template.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="30" selection-start="480" selection-end="480" vertical-scroll-proportion="0.20981595">
               <folding />
             </state>
           </provider>
@@ -114,7 +133,6 @@
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/map.css" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/basic_template.css.scss" />
         <option value="$PROJECT_DIR$/app/views/map/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_right_bar.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/right_bar.css" />
@@ -123,6 +141,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/template_basic.html.erb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/basic_template.css.scss" />
       </list>
     </option>
   </component>
@@ -734,16 +753,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+        <state line="50" column="31" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="31" selection-start="906" selection-end="906" vertical-scroll-proportion="0.8864994">
+        <state line="18" column="28" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/map.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="25" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/basic_template.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="480" selection-end="480" vertical-scroll-proportion="0.20981595">
           <folding />
         </state>
       </provider>
